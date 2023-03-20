@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Footer() {
   return (
     <footer className='bg-black/95 border-t border-gray-100/10'>
-      <div className='grid grid-cols-1 gap-8 px-6 py-8 md:grid-cols-2'>
+      {/* <div className='grid grid-cols-1 gap-8 px-6 py-8 md:grid-cols-2'>
         <div>
           <h2 className='mb-6 text-[15px] font-medium text-gray-100/80 uppercase font-[SegoeBold] lg:text-center'>
             OUR LOCATION
@@ -117,7 +117,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
       <div className='px-5 md:px-6 py-6 bg-black md:flex md:items-center md:justify-between'>
         <Image
           src='/zur-birke.svg'
@@ -128,30 +128,13 @@ export default function Footer() {
         />
         <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-sans'>
           <Link
-            href='/'
-            className='text-[11px] text-gray-100/80 hover:underline'
+            href='https://fabianhmz.dev/'
+            className='text-[12px] text-gray-100/80 hover:underline'
+            target='_blank'
           >
-            Home
+            Making with ❤️ for Fabian Herrera
           </Link>
-          <Link
-            href='/about-us'
-            className='text-[11px] text-gray-100/80 hover:underline'
-          >
-            About Us
-          </Link>
-          <Link
-            href='/privacystatement'
-            className='text-[11px] text-gray-100/80 hover:underline'
-          >
-            Privacidad
-          </Link>
-          <Link
-            href='/contact-us'
-            className='text-[11px] text-gray-100/80 hover:underline'
-          >
-            Contact Us
-          </Link>
-          <span className='text-[11px] text-gray-100/80 sm:text-center'>
+          <span className='text-[12px] text-gray-100/80 sm:text-center'>
             © Zur Birke <span id='year'>2023</span>
           </span>
         </div>
