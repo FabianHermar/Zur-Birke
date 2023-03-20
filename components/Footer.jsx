@@ -132,7 +132,7 @@ export default function Footer() {
             className='text-[12px] text-gray-100/80 hover:underline'
             target='_blank'
           >
-            Making with ❤️ for Fabian Herrera
+            Making with ❤️ by Fabian Herrera
           </Link>
           <span className='text-[12px] text-gray-100/80 sm:text-center'>
             © Zur Birke <span id='year'>2023</span>
