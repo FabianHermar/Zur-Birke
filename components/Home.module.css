@@ -1,0 +1,22 @@
+.zur{
+    background: url(/restaurant.jpg) no-repeat;
+    width: 100%;
+    display: table;
+    height: 100vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.zurblack {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
