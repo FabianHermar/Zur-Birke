@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+    background-color: rgba(222, 184, 135, 0.5);
+    color: #1a202c;
+}
+
+@layer base {
+    @font-face {
+        font-family: PlayFair;
+        src: url(/Fonts/PlayFair.woff) format("woff");
+    }
+    @font-face {
+        font-family: SegoeBold;
+        src: url(/Fonts/SegoeBold.woff) format("woff");
+    }
+	@font-face {
+		font-family: Questrial;
+		src: url(/Fonts/Questrial.woff) format("woff");
+	}
+}
