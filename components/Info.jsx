@@ -15,26 +15,26 @@ export default function Info() {
                   Fancy a cozy evening with German food in our beautiful
                   restaurant? Our attractive outdoor area is particularly
                   inviting when the weather is nice.
-                </article>
-                <article className='mt-3 font-sans sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left lg:text-base sm:text-xl text-black sm:mt-5'>
-                  <h4 className='text-center text-lg font-bold mb-2'>
+                  <h4 className='text-center text-lg font-bold mt-2'>
                     An excellent lunchtime restaurant.
                   </h4>{' '}
-                  Our German cuisine will spoil you with particularly authentic
-                  dishes. Let yourself be spoiled by our delicious dishes and a
-                  comprehensive selection of cool drinks. Enjoy your lunch or
-                  dinner at our location!
-                </article>
-                <article className='mt-3 font-sans sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left lg:text-base sm:text-xl text-black sm:mt-5'>
-                  Homemade cakes await you every Sunday. What could be more
-                  appropriate than a cup of hot coffee.
-                </article>
-                <article className='mt-3 font-sans sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left lg:text-base sm:text-xl text-black sm:mt-5'>
-                  Your events and celebrations are very important to us, just
-                  ask us, we look forward to it.
-                </article>
-                <article className='mt-3 font-sans sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left lg:text-base sm:text-xl text-black sm:mt-5'>
-                  We wish you bon appetit: Ihre Birke
+                  <p className=' font-sans sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left lg:text-base sm:text-xl text-black sm:mt-5'>
+                    Our German cuisine will spoil you with particularly
+                    authentic dishes. Let yourself be spoiled by our delicious
+                    dishes and a comprehensive selection of cool drinks. Enjoy
+                    your lunch or dinner at our location!
+                  </p>
+                  <p className='mt-3 font-sans sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left lg:text-base sm:text-xl text-black sm:mt-5'>
+                    Homemade cakes await you every Sunday. What could be more
+                    appropriate than a cup of hot coffee.
+                  </p>
+                  <p className='mt-3 font-sans sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left lg:text-base sm:text-xl text-black sm:mt-5'>
+                    Your events and celebrations are very important to us, just
+                    ask us, we look forward to it.
+                  </p>
+                  <p className='mt-3 font-sans sm:mx-auto lg:mx-0 max-w-lg text-center lg:text-left lg:text-base sm:text-xl text-black sm:mt-5'>
+                    We wish you bon appetit: Ihre Birke
+                  </p>
                 </article>
               </div>
             </div>
