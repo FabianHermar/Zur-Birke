@@ -14,9 +14,23 @@ export default function Footer() {
         />
         <div className='inline-block md:flex mt-4 space-x-3 sm:justify-center md:mt-0 font-sans'>
           <Link
-            href='https://fabianhmz.dev/'
-            className='text-[12px] text-gray-100/80 hover:underline'
+            href='https://www.google.com/search?q=Zur%20Birke%20Magdeburg%20Birkenweiler%204.Gartenweg%2019'
+            className='opacity-70 hover:opacity-100 transition'
             target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Image
+              src='/google-my-business.svg'
+              alt='Facebook'
+              width={25}
+              height={25}
+            />
+          </Link>
+          <Link
+            href='https://fabianhmz.dev/'
+            className='text-[12px] text-gray-100/80 underline decoration-[#deb887]/80 decoration-[2px] duration-200 hover:decoration-blue-600/80'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             Made with ❤️ by Fabian Herrera
           </Link>
