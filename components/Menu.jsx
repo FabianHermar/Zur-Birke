@@ -21,7 +21,7 @@ export default function Menu() {
             height={500}
           />
         </picture>
-        <h3 className='text-5xl font-[PlayFair] text-center mb-10 mt-10'>
+        <h3 className='text-5xl font-[PlayFair] text-center mb-10 mt-10 select-text'>
           Lunch Menu
         </h3>
         <picture className='flex flex-col lg:flex-row lg:justify-around'>
