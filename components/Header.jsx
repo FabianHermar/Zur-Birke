@@ -21,7 +21,7 @@ export default function Header() {
       <nav className='fixed z-20 select-none'>
         <div className='shadow-md w-full fixed top-0 left-0'>
           <div className='md:flex items-center justify-between lg:backdrop-blur-md bg-black lg:bg-black/70 py-4 md:px-10 px-7'>
-            <div className='font-bold text-2xl cursor-pointer flex items-center justify-center font-[Poppins] text-white'>
+            <div className='font-bold text-2xl cursor-pointer flex items-center justify-center font-[SegoeBold] text-white'>
               <span className='text-3xl mr-1 pt-2 flex items-center justify-center pr-2'>
                 <Image
                   src='/zur-birke.svg'
@@ -48,7 +48,7 @@ export default function Header() {
               {Links.map((link) => (
                 <li
                   key={link.name}
-                  className='md:ml-8 text-md md:my-0 my-7 font-[Poppins]'
+                  className='md:ml-8 text-md md:my-0 my-7 font-[Questrial]'
                 >
                   <Link
                     href={link.link}
