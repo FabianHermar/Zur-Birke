@@ -28,7 +28,7 @@ export default function Footer() {
           </Link>
           <Link
             href='https://fabianhmz.dev/'
-            className='text-[12px] text-gray-100/80 underline decoration-[#deb887]/80 decoration-[2px] duration-200 hover:decoration-blue-600/80'
+            className='text-[12px] text-gray-100/80 underline decoration-[#deb887]/80 decoration-[2px] duration-200 hover:decoration-blue-600/80 hover:text-white'
             target='_blank'
             rel='noopener noreferrer'
           >
